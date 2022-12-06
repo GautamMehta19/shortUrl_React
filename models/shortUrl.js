@@ -13,7 +13,7 @@ const shortUrlSchema = new mongoose.Schema({
     }
     // clicks: {
     //     type: Number,
-    //     // required: true,
+    //     required: true,
     //     default: 0
     // }
 })

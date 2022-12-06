@@ -31,4 +31,5 @@ app.get("/:shortUrl", async (req, res) => {
     res.redirect(shortUrl.longUrl);
 })
 
+
 app.listen(process.env.PORT || 3000);
